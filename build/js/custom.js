@@ -1832,6 +1832,7 @@ if (typeof NProgress != 'undefined') {
 
 		function init_CustomNotification() {
 
+
 			if( typeof (CustomTabs) === 'undefined'){ return; }
 
 			var cnt = 10;
@@ -1948,6 +1949,8 @@ if (typeof NProgress != 'undefined') {
 				Chart.defaults.global.legend = {
 					enabled: false
 				};
+
+
 
 			if ($('#canvas_line').length ){
 
